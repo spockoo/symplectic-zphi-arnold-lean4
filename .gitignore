@@ -11,7 +11,25 @@
 *.cb
 *.cb2
 .*.lb
+## Lean 4 & Lake
+.lake/
+build/
+*.olean
+*.ilean
 
+## Python / Environments
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+env/
+
+## Editors & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 ## Intermediate documents:
 *.dvi
 *.xdv
